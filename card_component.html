@@ -43,7 +43,7 @@
 
             el: "#app",
             data: {
-
+                    
                 product: {
                     id: 1,
                     subject: 'Math',
@@ -55,10 +55,11 @@
 
                 },
                 
-
+// array to store the product-ID
                 card: [],
 
             },
+            // Methods to push the product-ID
             methods: {
                 addToCard: function () {
                     this.card.push(this.product.id);
@@ -66,7 +67,7 @@
                     
                 }
             },
-           
+        //    functions : toCOUNT, TO AddTOCard and check Spaceleft in card
             computed: {
 
                     cardItemCount: function () {
